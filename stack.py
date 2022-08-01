@@ -1,7 +1,7 @@
 class Stack:
     def __init__(self):
         self.items=[]
-    def push(item,self):
+    def push(self,item):
         return self.items.append(item)
     def pop(self):
         return self.items.pop()
@@ -20,5 +20,6 @@ class Stack:
 
 if __name__ == "__main__":
     a = Stack()
-    b = a.items
-    print(type(k))
+    a.push(2)
+    print(a.__str__())
+    
